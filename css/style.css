@@ -1,14 +1,84 @@
-body {
-	background-color: LightCyan;
-}
-
 h1 {
-	font-size: 73px;
-	margin-bottom: 30px;
-	font-family: serif;
-	color: navy
+	font: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgba(0,0,0,.9);
+	text-align: center;
+	margin: 20px;
+	letter-spacing: 5px;
 }
 
+.top {
+	font: Georgia;
+	font-size: 16px;
+	color: rgba(0,0,0,.9);
+	text-align: center;
+	border: 40px solid #585858;
+	padding: 35px;
+	margin-bottom: 20px;
+	background-color: #F2F2F2;
+}
+
+h2 {
+	font: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgba(0,0,0,.9);
+	text-align: center;
+	margin: 10px;
+	letter-spacing: 2px
+}
+
+h3 {
+	font: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgba(0,0,0,.9);
+	text-align: center;
+	margin: 10px;
+	letter-spacing: 2px
+}
+h4 {
+	font: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgba(0,0,0,.9);
+	text-align: center;
+	margin: 10px;
+	letter-spacing: 2px
+}
 p {
-	font-family: sans-serif;
+	font: Georgia;
+	font-size: 16px;
+	padding: 10px;
+	text-align: center;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+div {
+	text-align: center;
+}
+.project {
+	padding: 30px;
+	background-color: #D8D8D8;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 20px;
+	font: Georgia;
+	font-size: 16px;
+	color: #424242;
+	border-bottom: 40px double #585858;
+
+
+}
+
+background-color: #E6E6E6
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	color: black;
 }
