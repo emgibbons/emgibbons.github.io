@@ -69,16 +69,21 @@ div {
 	font-size: 16px;
 	color: #424242;
 	border-bottom: 40px double #585858;
-
-
 }
 
-background-color: #E6E6E6
-
-a {
+a:link {
+	text-decoration: underline;
+	color: black;
+}
+a:hover {
 	text-decoration: none;
 	color: black;
 }
 a:visited {
+	text-decoration: none;
+	color: black;
+}
+a:active {
+	text-decoration: none;
 	color: black;
 }
